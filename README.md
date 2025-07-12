@@ -1,1 +1,1 @@
-# system_engineering-devop
+This is a readme file for week 6.
