@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Trap SIGTERM (signal 15)
 trap 'echo "I am invincible!!!"' SIGTERM
 
