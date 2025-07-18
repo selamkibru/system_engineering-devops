@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # A Bash script that displays a list of all currently running processes in a user-oriented hierarchical format
 
-ps -axo user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command --forest
+ps -axo user,start,time,command --forest --sort start | sed '1s/START/STARTED/'
